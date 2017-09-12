@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Event Implementation", "01. Event Implementation\01. Event Implementation.csproj", "{C810D5F6-A1CC-433F-ADDB-02815EA8B7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Kings Gambit", "02. Kings Gambit\02. Kings Gambit.csproj", "{F239FA3E-A416-40F3-921A-1A58FD4A0B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Dependency Inversion", "03. Dependency Inversion\03. Dependency Inversion.csproj", "{C629CAE1-18AD-43C0-B1A9-9D37624C4A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Work Force", "04. Work Force\04. Work Force.csproj", "{AE300D4E-C32C-4678-9015-3409446A9B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C810D5F6-A1CC-433F-ADDB-02815EA8B7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C810D5F6-A1CC-433F-ADDB-02815EA8B7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C810D5F6-A1CC-433F-ADDB-02815EA8B7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C810D5F6-A1CC-433F-ADDB-02815EA8B7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F239FA3E-A416-40F3-921A-1A58FD4A0B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F239FA3E-A416-40F3-921A-1A58FD4A0B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F239FA3E-A416-40F3-921A-1A58FD4A0B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F239FA3E-A416-40F3-921A-1A58FD4A0B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C629CAE1-18AD-43C0-B1A9-9D37624C4A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C629CAE1-18AD-43C0-B1A9-9D37624C4A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C629CAE1-18AD-43C0-B1A9-9D37624C4A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C629CAE1-18AD-43C0-B1A9-9D37624C4A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE300D4E-C32C-4678-9015-3409446A9B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE300D4E-C32C-4678-9015-3409446A9B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE300D4E-C32C-4678-9015-3409446A9B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE300D4E-C32C-4678-9015-3409446A9B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
