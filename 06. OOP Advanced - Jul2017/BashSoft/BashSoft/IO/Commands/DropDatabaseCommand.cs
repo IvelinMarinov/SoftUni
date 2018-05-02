@@ -1,10 +1,5 @@
 ﻿using BashSoft.Contracts;
 using BashSoft.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using BashSoft.Attributes;
 
 namespace BashSoft.IO.Commands

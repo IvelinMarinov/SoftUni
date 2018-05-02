@@ -6,6 +6,26 @@ namespace _06.Rectangle_Position
 {
     public class RectanglePosition
     {
+        public static void Main()
+        {
+            var firstRectangleInfo = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+            var firstRectangle = InitializeRectangle(firstRectangleInfo);
+
+            var secondRectangleInfo = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+            var secondRectangle = InitializeRectangle(secondRectangleInfo);
+
+            if (IsInside(firstRectangle, secondRectangle))
+            {
+                Console.WriteLine("Inside");
+            }
+            else
+            {
+                Console.WriteLine("Not inside");
+            }
+        }\
+
         public static Rectangle InitializeRectangle(int[] rectangleInfo)
         {
             var newRectangle = new Rectangle()
@@ -26,28 +46,7 @@ namespace _06.Rectangle_Position
             var topIsCorrect = first.Top >= second.Top;
             var bottomIsCorrect = first.Bottom <= second.Bottom;
 
-            return leftIsCorrect && rightIsCorrect && topIsCorrect && bottomIsCorrect;          
-
-        }
-
-        public static void Main()
-        {
-            var firstRectangleInfo = Console.ReadLine().Split().Select(int.Parse).ToArray();
-
-            var firstRectangle = InitializeRectangle(firstRectangleInfo);
-
-            var secondRectangleInfo = Console.ReadLine().Split().Select(int.Parse).ToArray();
-
-            var secondRectangle = InitializeRectangle(secondRectangleInfo);
-
-            if (IsInside(firstRectangle, secondRectangle))
-            {
-                Console.WriteLine("Inside");
-            }
-            else
-            {
-                Console.WriteLine("Not inside");
-            }
+            return leftIsCorrect && rightIsCorrect && topIsCorrect && bottomIsCorrect;
         }
     }
 }

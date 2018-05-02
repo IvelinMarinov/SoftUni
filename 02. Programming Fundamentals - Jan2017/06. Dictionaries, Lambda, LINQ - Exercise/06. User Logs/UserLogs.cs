@@ -9,13 +9,15 @@ namespace _06.User_Logs
         public static void Main()
         {
             var separators = new char[] { '=', ' ' };
-            var log = Console.ReadLine().Split(separators).ToList();
+            var log = Console.ReadLine()
+                .Split(separators)
+                .ToArray();
 
             var summary = new SortedDictionary<string, Dictionary<string, int>>();
 
             while (log[0] != "end")
             {
-                var user = log[log.Count - 1];
+                var user = log[log.Length - 1];
                 var IP = log[1];
 
                 if (!summary.ContainsKey(user))
@@ -41,9 +43,7 @@ namespace _06.User_Logs
                     summary[user][IP]++;
                 }
 
-
-
-                log = Console.ReadLine().Split(separators).ToList();
+                log = Console.ReadLine().Split(separators).ToArray();
             }
 
             foreach (var items in summary)
